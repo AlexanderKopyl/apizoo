@@ -1,6 +1,6 @@
 <?php
 
-use System\Engine\Model;
+use System\engine\Model;
 
 class ModelLocalisationCurrency extends Model {
 	public function addCurrency($data) {

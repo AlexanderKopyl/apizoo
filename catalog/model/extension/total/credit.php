@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelExtensionTotalCredit extends Model {
 	public function getTotal($total) {
 		$this->load->language('extension/total/credit');

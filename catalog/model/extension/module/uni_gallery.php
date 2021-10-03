@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelExtensionModuleUniGallery extends Model {	
 	public function getGallerys() {
 		$query = $this->db->query("SELECT * FROM ".DB_PREFIX."uni_gallery gi WHERE gi.status = 1");

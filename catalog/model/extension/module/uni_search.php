@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelExtensionModuleUniSearch extends Controller {
 	public function getProducts($data = []) {
 		$uniset = $this->config->get('config_unishop2');

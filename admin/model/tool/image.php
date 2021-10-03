@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 
 class ModelToolImage extends Model {
 	public function resize($filename, $width, $height) {

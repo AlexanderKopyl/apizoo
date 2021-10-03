@@ -1,6 +1,6 @@
 <?php
 
-use System\Engine\Model;
+use System\engine\Model;
 
 class ModelExtensionDashboardSale extends Model {
 	public function getTotalSales($data = array()) {

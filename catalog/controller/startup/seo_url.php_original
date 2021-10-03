@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerStartupSeoUrl extends Controller {
 	public function index() {
 		// Add rewrite to url class

@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 
 class ModelCustomerCustomer extends Model {
 	public function addCustomer($data) {

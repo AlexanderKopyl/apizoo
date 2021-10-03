@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelExtensionModulePayPalSmartButton extends Model {
 	
 	public function hasProductInCart($product_id, $option = array(), $recurring_id = 0) {

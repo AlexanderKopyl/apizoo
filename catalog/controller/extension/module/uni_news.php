@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerExtensionModuleUniNews extends Controller {
 	public function index($setting) {
 		static $module = 0;

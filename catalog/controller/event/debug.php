@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerEventDebug extends Controller {
 	public function before(&$route, &$args) {
 		if ($route == 'common/home') { // add the route you want to test

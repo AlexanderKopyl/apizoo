@@ -1,6 +1,6 @@
 <?php
 
-use System\Engine\Model;
+use System\engine\Model;
 
 class ModelSettingStore extends Model {
 	public function addStore($data) {

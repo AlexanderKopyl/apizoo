@@ -1,6 +1,6 @@
 <?php
 
-use System\Engine\Model;
+use System\engine\Model;
 
 class ModelSaleOrder extends Model {
 	public function getOrder($order_id) {

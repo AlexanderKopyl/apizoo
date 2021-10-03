@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerExtensionTotalVoucher extends Controller {
 	public function index() {
 		if ($this->config->get('total_voucher_status')) {

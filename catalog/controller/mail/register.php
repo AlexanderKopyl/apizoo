@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerMailRegister extends Controller {
 	public function index(&$route, &$args, &$output) {
 		$this->load->language('mail/register');

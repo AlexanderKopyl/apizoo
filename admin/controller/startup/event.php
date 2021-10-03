@@ -1,7 +1,7 @@
 <?php
 
-use System\Engine\Action;
-use System\Engine\Controller;
+use System\engine\Action;
+use System\engine\Controller;
 
 class ControllerStartupEvent extends Controller {
 	public function index() {

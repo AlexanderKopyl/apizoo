@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerExtensionModulePPBraintreeButton extends Controller {
 	public function index() {
 		$this->load->language('extension/module/pp_braintree_button');

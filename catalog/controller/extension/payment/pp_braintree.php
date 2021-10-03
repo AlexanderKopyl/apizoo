@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerExtensionPaymentPPBraintree extends Controller {
 	private $customer_id_prefix = 'braintree_oc_';
 	private $gateway = null;

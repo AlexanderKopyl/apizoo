@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerExtensionPaymentPaymate extends Controller {
 	public function index() {
 		if (!$this->config->get('payment_paymate_test')) {

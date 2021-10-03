@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelExtensionModuleIeProProducts extends ModelExtensionModuleIePro
 {
     var $products_models = array();

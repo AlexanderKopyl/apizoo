@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerExtensionPaymentGlobalpay extends Controller {
 	public function index() {
 		$this->load->language('extension/payment/globalpay');

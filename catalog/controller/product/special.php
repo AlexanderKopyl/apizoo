@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerProductSpecial extends Controller {
 	public function index() {
 		$this->load->language('product/special');

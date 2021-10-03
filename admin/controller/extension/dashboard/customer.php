@@ -1,6 +1,6 @@
 <?php
 
-use System\Engine\Controller;
+use System\engine\Controller;
 
 class ControllerExtensionDashboardCustomer extends Controller {
 	private $error = array();

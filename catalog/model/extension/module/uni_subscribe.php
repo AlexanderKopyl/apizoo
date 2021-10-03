@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelExtensionModuleUniSubscribe extends Model {
 	public function editSubscribe($customer_id, $newsletter) {
 		$this->db->query("UPDATE `".DB_PREFIX."customer` SET newsletter = '".(int)$newsletter."' WHERE customer_id = '".(int)$customer_id."'");

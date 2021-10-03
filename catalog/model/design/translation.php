@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelDesignTranslation extends Model {
 	public function getTranslations($route) {
 		$language_code = !empty($this->session->data['language']) ? $this->session->data['language'] : $this->config->get('config_language');

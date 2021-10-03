@@ -6,7 +6,7 @@
  * @license		https://opensource.org/licenses/GPL-3.0
  * @link		https://www.opencart.com
 */
-namespace System\Engine;
+namespace System\engine;
 
 /**
 * Controller class

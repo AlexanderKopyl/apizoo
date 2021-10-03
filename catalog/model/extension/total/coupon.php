@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelExtensionTotalCoupon extends Model {
 	public function getCoupon($code) {
 		$status = true;

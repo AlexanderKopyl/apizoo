@@ -6,9 +6,9 @@
  * @license		https://opensource.org/licenses/GPL-3.0
  * @link		https://www.opencart.com
 */
-namespace System\Engine;
+namespace System\engine;
 
-use System\Engine\Action as CoreAction;
+use System\engine\Action as CoreAction;
 
 /**
 * Event class
