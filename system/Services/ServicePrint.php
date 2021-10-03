@@ -1,7 +1,9 @@
 <?php
 namespace System\Services;
 
-class ServicePrint implements ServiceInterface
+use System\Services\FactoryInterface\ServicePrintInterface;
+
+class ServicePrint implements ServiceInterface, ServicePrintInterface
 {
     /**
      * @param $printData
