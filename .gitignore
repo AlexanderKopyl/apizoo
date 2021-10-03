@@ -10,5 +10,5 @@ image
 /**/.directory
 system/storage
 vendor
-opencart-phpstorm
-/catalog/controller/api/test.php
+opencart-phpstorm/
+catalog/controller/api/test.php
