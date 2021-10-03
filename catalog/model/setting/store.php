@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelSettingStore extends Model {
 	public function getStores() {
 		$store_data = $this->cache->get('store');

@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerMarketplaceInstall extends Controller {
 	public function install() {
 		$this->load->language('marketplace/install');

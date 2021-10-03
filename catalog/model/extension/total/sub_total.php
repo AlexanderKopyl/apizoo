@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionTotalSubTotal extends Model {
 	public function getTotal($total) {
 		$this->load->language('extension/total/sub_total');

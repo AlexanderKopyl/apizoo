@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionPaymentCardConnect extends Model {
 	public function install() {
 		$this->db->query("

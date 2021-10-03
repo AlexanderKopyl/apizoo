@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionPaymentPPBraintree extends Model {
 	public function generateToken($gateway, $data = array()) {
 		try {

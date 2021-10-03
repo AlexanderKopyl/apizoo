@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionCreditCardSagepayDirect extends Controller {
 	public function index() {
 		if (!$this->customer->isLogged()) {

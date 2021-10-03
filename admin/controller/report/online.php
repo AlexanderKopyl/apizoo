@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerReportOnline extends Controller {
 	public function index() {
 		$this->load->language('report/online');

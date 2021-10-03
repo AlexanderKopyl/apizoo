@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerMarketplaceMarketplace extends Controller {
 	public function index() {
 		$this->load->language('marketplace/marketplace');

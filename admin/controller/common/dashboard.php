@@ -1,4 +1,6 @@
 <?php
+use System\Engine\Controller;
+
 class ControllerCommonDashboard extends Controller {
 	public function index() {
 		$this->load->language('common/dashboard');

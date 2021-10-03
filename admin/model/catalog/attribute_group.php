@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelCatalogAttributeGroup extends Model {
 	public function addAttributeGroup($data) {
 		$this->db->query("INSERT INTO " . DB_PREFIX . "attribute_group SET sort_order = '" . (int)$data['sort_order'] . "'");

@@ -1,4 +1,6 @@
 <?php
+use System\Engine\Model;
+
 class ModelSettingExtension extends Model {	
 	public function getInstalled($type) {
 		$extension_data = array();

@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionPaymentAlipayCross extends Model {
 	var $https_verify_url = 'https://mapi.alipay.com/gateway.do?service=notify_verify&';
 	var $https_verify_url_test = 'https://openapi.alipaydev.com/gateway.do?service=notify_verify&';

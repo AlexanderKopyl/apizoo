@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelDesignTranslation extends Model {
 	public function addTranslation($data) {
 		$this->db->query("INSERT INTO `" . DB_PREFIX . "translation` SET `store_id` = '" . (int)$data['store_id'] . "', `language_id` = '" . (int)$data['language_id'] . "', `route` = '" . $this->db->escape($data['route']) . "', `key` = '" . $this->db->escape($data['key']) . "', `value` = '" . $this->db->escape($data['value']) . "', `date_added` = NOW()");

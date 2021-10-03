@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerAffiliateSuccess extends Controller {
 	public function index() {
 		$this->load->language('affiliate/success');

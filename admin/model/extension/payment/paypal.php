@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionPaymentPayPal extends Model {
 		
 	public function configureSmartButton() {

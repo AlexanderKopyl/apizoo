@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelReportStatistics extends Model {
 	public function getStatistics() {
 		$query = $this->db->query("SELECT * FROM " . DB_PREFIX . "statistics");

@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerCommonHeader extends Controller {
 	public function index() {
 		// Analytics

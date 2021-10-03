@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionReportCustomerTransaction extends Controller {
 	public function index() {
 		$this->load->language('extension/report/customer_transaction');

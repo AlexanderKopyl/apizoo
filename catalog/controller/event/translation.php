@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerEventTranslation extends Controller {
 	public function index(&$route, &$key) {
 		$this->load->model('design/translation');

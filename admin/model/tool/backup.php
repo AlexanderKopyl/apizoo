@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelToolBackup extends Model {
 	public function getTables() {
 		$table_data = array();

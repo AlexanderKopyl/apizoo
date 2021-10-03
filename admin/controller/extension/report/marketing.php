@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionReportMarketing extends Controller {
 	public function index() {
 		$this->load->language('extension/report/marketing');

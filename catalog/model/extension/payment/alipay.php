@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionPaymentAlipay extends Model {
 	private $apiMethodName="alipay.trade.page.pay";
 	private $postCharset = "UTF-8";

@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelAccountActivity extends Model {
 	public function addActivity($key, $data) {
 		if (isset($data['customer_id'])) {

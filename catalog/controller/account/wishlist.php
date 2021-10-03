@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerAccountWishList extends Controller {
 	public function index() {
 		if (!$this->customer->isLogged()) {

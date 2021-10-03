@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionTotalHandling extends Model {
 	public function getTotal($total) {
 		if (($this->cart->getSubTotal() > $this->config->get('total_handling_total')) && ($this->cart->getSubTotal() > 0) && ($this->cart->hasDownload() == false) && $this->cart->hasShipping() == true) {

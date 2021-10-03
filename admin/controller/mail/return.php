@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerMailReturn extends Controller {
 	public function index($route, $args, $output) {
 		if (isset($args[0])) {

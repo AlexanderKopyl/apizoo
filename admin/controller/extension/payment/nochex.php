@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionPaymentNOCHEX extends Controller {
 	private $error = array();
 

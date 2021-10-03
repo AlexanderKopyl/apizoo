@@ -1,4 +1,6 @@
 <?php
+use System\Engine\Controller;
+
 class ControllerStartupPermission extends Controller {
 	public function index() {
 		if (isset($this->request->get['route'])) {

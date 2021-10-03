@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerEventTheme extends Controller {
 	public function index(&$route, &$args, &$code) {
 

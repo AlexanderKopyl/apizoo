@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionModuleDividoCalculator extends Controller {
 	public function index() {
 		$this->load->language('extension/module/divido_calculator');

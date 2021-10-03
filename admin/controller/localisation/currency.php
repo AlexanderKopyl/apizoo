@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerLocalisationCurrency extends Controller {
 	private $error = array();
 

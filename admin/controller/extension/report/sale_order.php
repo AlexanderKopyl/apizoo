@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionReportSaleOrder extends Controller {
 	public function index() {
 		$this->load->language('extension/report/sale_order');

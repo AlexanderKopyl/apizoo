@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionPaymentRealex extends Controller {
 	private $error = array();
 

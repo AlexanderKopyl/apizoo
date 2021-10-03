@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerApiVoucher extends Controller {
 	public function index() {
 		$this->load->language('api/voucher');

@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionFraudMaxMind extends Controller {
 	private $error = array();
 

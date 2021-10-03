@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionTotalReward extends Model {
 	public function getTotal($total) {
 		if (isset($this->session->data['reward'])) {

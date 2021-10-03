@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerCommonCurrency extends Controller {
 	public function index() {
 		$this->load->language('common/currency');

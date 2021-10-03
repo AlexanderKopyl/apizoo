@@ -4,6 +4,7 @@ use \googleshopping\exception\Connection as ConnectionException;
 use \googleshopping\Googleshopping;
 use \googleshopping\traits\LibraryLoader;
 use \googleshopping\traits\StoreLoader;
+use System\Engine\Controller;
 
 class ControllerExtensionAdvertiseGoogle extends Controller {
     use StoreLoader;

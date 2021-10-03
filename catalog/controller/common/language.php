@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerCommonLanguage extends Controller {
 	public function index() {
 		$this->load->language('common/language');

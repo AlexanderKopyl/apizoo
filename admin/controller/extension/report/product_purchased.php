@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionReportProductPurchased extends Controller {
 	public function index() {
 		$this->load->language('extension/report/product_purchased');

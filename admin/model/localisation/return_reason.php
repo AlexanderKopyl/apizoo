@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelLocalisationReturnReason extends Model {
 	public function addReturnReason($data) {
 		foreach ($data['return_reason'] as $language_id => $value) {

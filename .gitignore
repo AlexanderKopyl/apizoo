@@ -11,3 +11,4 @@ image
 system/storage
 vendor
 opencart-phpstorm
+/catalog/controller/api/test.php

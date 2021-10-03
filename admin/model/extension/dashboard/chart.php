@@ -1,4 +1,6 @@
 <?php
+use System\Engine\Model;
+
 class ModelExtensionDashboardChart extends Model {
 	public function getTotalOrdersByDay() {
 		$implode = array();

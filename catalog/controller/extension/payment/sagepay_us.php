@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionPaymentSagepayUS extends Controller {
 	public function index() {
 		$this->load->language('extension/payment/sagepay_us');
