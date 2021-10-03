@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerInformationUniNewsStory extends Controller {
 
 	public function index() {

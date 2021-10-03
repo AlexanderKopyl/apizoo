@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelDesignBanner extends Model {
 	public function addBanner($data) {
 		$this->db->query("INSERT INTO " . DB_PREFIX . "banner SET name = '" . $this->db->escape($data['name']) . "', status = '" . (int)$data['status'] . "'");

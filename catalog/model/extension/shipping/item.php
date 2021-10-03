@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionShippingItem extends Model {
 	function getQuote($address) {
 		$this->load->language('extension/shipping/item');

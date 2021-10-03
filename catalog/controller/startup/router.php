@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerStartupRouter extends Controller {
 	public function index() {
 		// Route

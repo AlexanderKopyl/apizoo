@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionReportCustomer extends Model {
 	public function getTotalCustomersByDay() {
 		$customer_data = array();

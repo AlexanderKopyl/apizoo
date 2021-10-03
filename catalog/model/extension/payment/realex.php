@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionPaymentRealex extends Model {
 	public function getMethod($address, $total) {
 		$this->load->language('extension/payment/realex');

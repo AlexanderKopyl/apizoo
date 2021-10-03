@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionModuleUniViewed extends Controller {
 	public function index($setting) {
 		$this->load->language('extension/module/uni_viewed');

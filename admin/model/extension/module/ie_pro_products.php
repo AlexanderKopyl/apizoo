@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionModuleIeProProducts extends ModelExtensionModuleIePro
 {
     var $products_models = array();

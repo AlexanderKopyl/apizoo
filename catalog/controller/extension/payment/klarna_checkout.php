@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionPaymentKlarnaCheckout extends Controller {
 	public function index() {
 		$this->load->language('extension/payment/klarna_checkout');

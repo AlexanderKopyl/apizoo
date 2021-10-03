@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerStartupEvent extends Controller {
 	public function index() {
 		// Add events from the DB

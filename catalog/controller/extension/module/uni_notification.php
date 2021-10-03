@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionModuleUniNotification extends Controller {
 	public function index() {
 		$uniset = $this->config->get('config_unishop2');

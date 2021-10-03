@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionFeedUniNewsSitemap extends Controller {
 	public function index() {
 		

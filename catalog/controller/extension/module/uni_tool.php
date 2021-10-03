@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionModuleUniTool extends Controller {
 	private $uniset;
 	

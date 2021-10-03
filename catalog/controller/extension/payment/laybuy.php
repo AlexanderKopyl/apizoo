@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionPaymentLaybuy extends Controller {
 	public function index() {
 		$this->load->language('extension/payment/laybuy');

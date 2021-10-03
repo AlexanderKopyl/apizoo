@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionRecurringSquareup extends Controller {
     public function index() {
         $this->load->language('extension/recurring/squareup');

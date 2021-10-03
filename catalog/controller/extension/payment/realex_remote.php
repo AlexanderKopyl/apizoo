@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionPaymentRealexRemote extends Controller {
 	public function index() {
 		$this->load->language('extension/payment/realex_remote');

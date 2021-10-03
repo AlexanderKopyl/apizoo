@@ -1,4 +1,6 @@
 <?php
+use System\Engine\Controller;
+
 class ControllerExtensionDashboardOnline extends Controller {
 	private $error = array();
 

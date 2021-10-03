@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerCheckoutPaymentMethod extends Controller {
 	public function index() {
 		$this->load->language('checkout/checkout');

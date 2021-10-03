@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionModuleUniBannerInCategory extends Controller {
 	private $error = [];
 

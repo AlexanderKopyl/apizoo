@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionModuleSmsAlert extends Model {
 	public function getOrder($order_id) {
 		

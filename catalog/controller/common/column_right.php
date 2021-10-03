@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerCommonColumnRight extends Controller {
 	public function index() {
 		$this->load->model('design/layout');

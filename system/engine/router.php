@@ -7,6 +7,10 @@
  * @link		https://www.opencart.com
 */
 
+namespace System\Engine;
+
+use System\Engine\Action as CoreAction;
+
 /**
 * Router class
 */
@@ -29,7 +33,7 @@ final class Router {
 	 *
 	 * @param	object	$pre_action
  	*/	
-	public function addPreAction(Action $pre_action) {
+	public function addPreAction(CoreAction $pre_action) {
 		$this->pre_action[] = $pre_action;
 	}
 
@@ -39,7 +43,7 @@ final class Router {
 	 * @param	object	$action
 	 * @param	object	$error
  	*/		
-	public function dispatch(Action $action, Action $error) {
+	public function dispatch(CoreAction $action, CoreAction $error) {
 		$this->error = $error;
 
 		foreach ($this->pre_action as $pre_action) {
@@ -63,14 +67,14 @@ final class Router {
 	 * @param	object	$action
 	 * @return	object
  	*/
-	private function execute(Action $action) {
+	private function execute(CoreAction $action) {
 		$result = $action->execute($this->registry);
 
 		if ($result instanceof Action) {
 			return $result;
 		} 
 		
-		if ($result instanceof Exception) {
+		if ($result instanceof \Exception) {
 			$action = $this->error;
 			
 			$this->error = null;

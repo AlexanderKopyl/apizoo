@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionExtensionShipping extends Controller {
 	private $error = array();
 

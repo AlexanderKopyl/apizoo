@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionModuleUniNewsRelated extends Controller {
 	public function index() {
 		$this->load->language('extension/module/uni_othertext');

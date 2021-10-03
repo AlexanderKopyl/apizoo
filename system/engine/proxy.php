@@ -7,6 +7,8 @@
  * @link		https://www.opencart.com
 */
 
+namespace System\Engine;
+
 /**
 * Proxy class
 */

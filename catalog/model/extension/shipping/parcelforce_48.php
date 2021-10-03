@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionShippingParcelforce48 extends Model {
 	function getQuote($address) {
 		$this->load->language('extension/shipping/parcelforce_48');

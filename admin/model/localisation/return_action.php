@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelLocalisationReturnAction extends Model {
 	public function addReturnAction($data) {
 		foreach ($data['return_action'] as $language_id => $value) {

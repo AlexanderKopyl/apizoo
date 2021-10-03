@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionPaymentGlobalpayRemote extends Controller {
 	private $error = array();
 

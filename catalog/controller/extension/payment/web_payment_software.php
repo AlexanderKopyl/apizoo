@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionPaymentWebPaymentSoftware extends Controller {
 	public function index() {
 		$this->load->language('extension/payment/web_payment_software');

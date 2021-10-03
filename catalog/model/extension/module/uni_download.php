@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionModuleUniDownload extends Model {	
 	public function getDownloads($product_id, $start, $limit) {
 		$uniset = $this->config->get('config_unishop2');

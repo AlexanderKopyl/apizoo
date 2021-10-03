@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionModuleUniCategoryWall extends Controller {
 	public function index($setting) {
 		static $module = 0;

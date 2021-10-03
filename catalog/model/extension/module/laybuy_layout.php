@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionModuleLaybuyLayout extends Model {
 	public function getStatusLabel($id) {
 		$statuses = $this->getTransactionStatuses();

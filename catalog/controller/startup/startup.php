@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerStartupStartup extends Controller {
 	public function index() {
 		// Store

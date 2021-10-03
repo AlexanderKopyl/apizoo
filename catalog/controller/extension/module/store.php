@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionModuleStore extends Controller {
 	public function index() {
 		$status = true;

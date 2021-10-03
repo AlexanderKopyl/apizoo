@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionModuleUniManufacturer extends Controller {
 	private $error = array(); 
 	

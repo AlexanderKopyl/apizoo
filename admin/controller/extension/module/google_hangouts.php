@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionModuleGoogleHangouts extends Controller {
 	private $error = array();
 

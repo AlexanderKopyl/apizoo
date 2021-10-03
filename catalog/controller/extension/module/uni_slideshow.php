@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionModuleUniSlideshow extends Controller {
 	public function index($setting) {
 		static $module = 0;

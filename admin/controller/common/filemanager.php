@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerCommonFileManager extends Controller {
 	public function index() {
 		$this->load->language('common/filemanager');

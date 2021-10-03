@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerLocalisationZone extends Controller {
 	private $error = array();
 

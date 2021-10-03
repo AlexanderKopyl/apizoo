@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionModuleBestSeller extends Controller {
 	public function index($setting) {
 		$this->load->language('extension/module/bestseller');

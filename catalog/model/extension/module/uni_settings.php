@@ -1,5 +1,6 @@
 <?php
-class ModelExtensionModuleUniSettings extends Model {	
+use System\Engine\Model;
+class ModelExtensionModuleUniSettings extends Model {
 	public function getSetting() {
 		$store_id = (int)$this->config->get('config_store_id');
 		

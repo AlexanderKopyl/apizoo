@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerCatalogInformation extends Controller {
 	private $error = array();
 

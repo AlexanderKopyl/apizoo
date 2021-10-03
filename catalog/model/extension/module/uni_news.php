@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionModuleUniNews extends Model {
 	
 	public function getCategories($parent_id = 0) {

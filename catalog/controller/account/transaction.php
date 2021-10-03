@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerAccountTransaction extends Controller {
 	public function index() {
 		if (!$this->customer->isLogged()) {

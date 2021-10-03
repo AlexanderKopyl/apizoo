@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Model;
 class ModelExtensionModuleUniFiveInOne extends Model {	
 	public function getLatest($limit, $qty) {
 		$products = [];

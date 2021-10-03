@@ -1,4 +1,5 @@
 <?php
+use System\Engine\Controller;
 class ControllerExtensionPaymentPilibaba extends Controller {
 	public function index() {
 		$this->load->language('extension/payment/pilibaba');
