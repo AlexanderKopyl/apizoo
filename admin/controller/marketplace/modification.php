@@ -4,6 +4,7 @@
  *
  * https://github.com/opencart/opencart/wiki/Modification-System
  */
+use System\engine\Controller;
 class ControllerMarketplaceModification extends Controller {
 	private $error = array();
 

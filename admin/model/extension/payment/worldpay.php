@@ -1,5 +1,5 @@
 <?php
-
+use System\engine\Model;
 class ModelExtensionPaymentWorldpay extends Model {
 
 	public function install() {

@@ -2,7 +2,7 @@
 use Klarna\Rest\Transport\Connector as KCConnector;
 use Klarna\Rest\Transport\ConnectorInterface as KCConnectorInterface;
 use Klarna\Rest\OrderManagement\Order as KCOrder;
-
+use System\engine\Model;
 class ModelExtensionPaymentKlarnaCheckout extends Model {
 	public function connector($merchant_id, $secret, $url) {
 		try {

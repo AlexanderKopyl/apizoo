@@ -1,5 +1,5 @@
 <?php
-
+use System\engine\Model;
 class ModelExtensionPaymentEway extends Model {
 
 	public function install() {

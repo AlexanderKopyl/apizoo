@@ -2,7 +2,7 @@
 
 use \googleshopping\exception\Connection as ConnectionException;
 use \googleshopping\Googleshopping;
-
+use System\engine\Model;
 class ModelExtensionAdvertiseGoogle extends Model {
     private $events = array(
         'admin/view/common/column_left/before' => array(

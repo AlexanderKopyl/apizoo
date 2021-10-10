@@ -1,7 +1,8 @@
 <?php
 // Site
 $_['site_base']         = substr(HTTP_SERVER, 7);
-$_['site_ssl']          = false;
+$_['site_ssl']          = HTTPS_SERVER;
+$_['site_url']          = HTTP_SERVER;
 
 // Database
 $_['db_autostart']      = true;
@@ -15,12 +16,15 @@ $_['db_port']           = DB_PORT;
 // Session
 $_['session_autostart'] = true;
 
+
 // Actions
 $_['action_pre_action'] = array(
     'oc_cli/startup',
     'startup/startup',
     'startup/error',
-    'startup/event'
+    'startup/event',
+    'startup/maintenance',
+    'startup/seo_url'
 );
 
 // Actions

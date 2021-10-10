@@ -1,5 +1,5 @@
 <?php
-
+use System\engine\Model;
 class ModelExtensionPaymentG2aPay extends Model {
 
 	public function install() {
