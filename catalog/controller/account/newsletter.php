@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerAccountNewsletter extends Controller {
 	public function index() {
 		if (!$this->customer->isLogged()) {

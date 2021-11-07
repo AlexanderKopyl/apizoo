@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 
 class ModelSettingEvent extends Model {
 	public function addEvent($code, $trigger, $action, $status = 1, $sort_order = 0) {

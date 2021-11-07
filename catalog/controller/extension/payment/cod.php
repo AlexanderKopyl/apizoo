@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerExtensionPaymentCod extends Controller {
 	public function index() {
 		return $this->load->view('extension/payment/cod');

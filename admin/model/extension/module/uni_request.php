@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelExtensionModuleUniRequest extends Model {
 	public function editRequest($request_id, $data) {
 		$this->db->query("UPDATE `".DB_PREFIX ."uni_request` SET type = '".$this->db->escape($data['type'])."', name = '".$this->db->escape($data['name'])."', phone = '".$this->db->escape(strip_tags($data['phone']))."', mail = '".$this->db->escape(strip_tags($data['mail']))."', comment = '".$this->db->escape($data['comment'])."', admin_comment = '".$this->db->escape($data['admin_comment'])."', date_added = '".$this->db->escape($data['date_added'])."', date_modified = NOW(), status = '".(int)$data['status']."', request_list = '".(int)$data['request_list']."' WHERE request_id = '".(int)$request_id."'");

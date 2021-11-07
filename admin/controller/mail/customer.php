@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerMailCustomer extends Controller {
 	public function approve(&$route, &$args, &$output) {
 		$this->load->model('customer/customer');

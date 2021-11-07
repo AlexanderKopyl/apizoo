@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelExtensionPaymentFreeCheckout extends Model {
 	public function getMethod($address, $total) {
 		$this->load->language('extension/payment/free_checkout');

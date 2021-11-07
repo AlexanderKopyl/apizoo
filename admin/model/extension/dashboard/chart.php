@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 
 class ModelExtensionDashboardChart extends Model {
 	public function getTotalOrdersByDay() {

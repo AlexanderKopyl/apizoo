@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerExtensionPaymentBluePayHosted extends Controller {
 	public function index() {
 		$this->load->language('extension/payment/bluepay_hosted');

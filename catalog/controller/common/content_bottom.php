@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerCommonContentBottom extends Controller {
 	public function index() {
 		$this->load->model('design/layout');

@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelExtensionFraudFraudLabsPro extends Model {
 	public function check($data) {
 		// Do not perform fraud check if FraudLabs Pro is disabled or API key is not provided.

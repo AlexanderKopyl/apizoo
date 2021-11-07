@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelExtensionPaymentDivido extends Model {
 	const CACHE_KEY_PLANS = 'divido_plans';
 

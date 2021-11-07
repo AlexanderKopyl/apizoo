@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerEventTheme extends Controller {
 	public function index(&$route, &$args) {
 		// This is only here for compatibility with old templates

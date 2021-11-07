@@ -1,6 +1,6 @@
 <?php
 
-namespace System\Engine;
+namespace System\engine;
 
 use System\Services\ServiceInterface;
 

@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelExtensionPaymentSecureTradingPp extends Model {
 	public function install() {
 		$this->db->query("

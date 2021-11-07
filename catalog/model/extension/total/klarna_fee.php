@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelExtensionTotalKlarnaFee extends Model {
 	public function getTotal($totals) {
 		extract($totals);

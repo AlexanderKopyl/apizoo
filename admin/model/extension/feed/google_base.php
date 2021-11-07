@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelExtensionFeedGoogleBase extends Model {
 	public function install() {
 		$this->db->query("

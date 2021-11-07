@@ -1,11 +1,11 @@
 <?php
 // Registry
-use System\Engine\ServiceFactory;
-use System\Engine\Loader;
-use System\Engine\Action;
-use System\Engine\Event;
-use System\Engine\Router;
-use System\Engine\Registry;
+use System\engine\ServiceFactory;
+use System\engine\Loader;
+use System\engine\Action;
+use System\engine\Event;
+use System\engine\Router;
+use System\engine\Registry;
 
 $registry = new Registry();
 

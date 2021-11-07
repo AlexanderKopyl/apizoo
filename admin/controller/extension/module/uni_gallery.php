@@ -1,4 +1,4 @@
-<?php 
+<?php System\engine\Controller;
 class ControllerExtensionModuleUniGallery extends Controller {
 	private $error = array();
 

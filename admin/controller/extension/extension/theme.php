@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerExtensionExtensionTheme extends Controller {
 	private $error = array();
 

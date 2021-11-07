@@ -1,6 +1,6 @@
 <?php
 
-use System\Engine\Model;
+use System\engine\Model;
 
 class ModelExtensionDashboardOnline extends Model {
 	public function getTotalOnline($data = array()) {

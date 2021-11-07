@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerProductProduct extends Controller {
 	private $error = array();
 

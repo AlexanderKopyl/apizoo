@@ -1,6 +1,6 @@
 <?php
 
-use System\Engine\Model;
+use System\engine\Model;
 
 class ModelReportStatistics extends Model {
 	public function getStatistics() {

@@ -2,6 +2,7 @@
 
 use \googleshopping\traits\StoreLoader;
 use \googleshopping\traits\LibraryLoader;
+use System\engine\Controller;
 
 class ControllerExtensionAdvertiseGoogle extends Controller {
     use StoreLoader;

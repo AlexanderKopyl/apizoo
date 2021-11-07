@@ -1,5 +1,5 @@
 <?php
-
+use System\engine\Controller;
 class ControllerExtensionPaymentG2APay extends Controller {
 
 	private $error = array();

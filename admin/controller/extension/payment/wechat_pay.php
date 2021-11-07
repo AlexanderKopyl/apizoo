@@ -6,7 +6,7 @@
  * @license		https://opensource.org/licenses/GPL-3.0
  * @link		https://www.opencart.cn
  */
-
+use System\engine\Controller;
 class ControllerExtensionPaymentWechatPay extends Controller {
 	private $error = array();
 

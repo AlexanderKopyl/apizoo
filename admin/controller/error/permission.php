@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerErrorPermission extends Controller {
 	public function index() {
 		$this->load->language('error/permission');

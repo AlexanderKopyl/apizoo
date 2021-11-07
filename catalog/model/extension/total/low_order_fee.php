@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Model;
+use System\engine\Model;
 class ModelExtensionTotalLowOrderFee extends Model {
 	public function getTotal($total) {
 		if ($this->cart->getSubTotal() && ($this->cart->getSubTotal() < $this->config->get('total_low_order_fee_total'))) {

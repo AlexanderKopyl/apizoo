@@ -1,5 +1,5 @@
 <?php
-use System\Engine\Controller;
+use System\engine\Controller;
 class ControllerMailAffiliate extends Controller {
 	public function index(&$route, &$args, &$output) {
 		$this->load->language('mail/affiliate');
