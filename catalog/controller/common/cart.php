@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerCommonCart extends Controller {
 	public function index() {
 		$this->load->language('common/cart');

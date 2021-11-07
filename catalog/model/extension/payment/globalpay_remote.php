@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionPaymentGlobalpayRemote extends Model {
 	public function getMethod($address, $total) {
 		$this->load->language('extension/payment/globalpay_remote');

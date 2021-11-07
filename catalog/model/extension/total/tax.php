@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionTotalTax extends Model {
 	public function getTotal($total) {
 		foreach ($total['taxes'] as $key => $value) {

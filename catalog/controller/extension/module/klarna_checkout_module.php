@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionModuleKlarnaCheckoutModule extends Controller {
 	public function index() {
 		$this->load->model('extension/payment/klarna_checkout');

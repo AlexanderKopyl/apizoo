@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionPaymentKlarnaInvoice extends Controller {
 	private $error = array();
 

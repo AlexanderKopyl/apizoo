@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionPaymentFreeCheckout extends Controller {
 	public function index() {
 		$data['continue'] = $this->url->link('checkout/success');

@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionPaymentAlipayCross extends Controller {
 	var $alipay_gateway = 'https://mapi.alipay.com/gateway.do?';
 	var $alipay_gateway_test = 'https://openapi.alipaydev.com/gateway.do?';

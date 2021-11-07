@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionTotalReward extends Controller {
 	public function index() {
 		$points = $this->customer->getRewardPoints();

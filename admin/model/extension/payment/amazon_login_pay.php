@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionPaymentAmazonLoginPay extends Model {
 
 	public function install() {

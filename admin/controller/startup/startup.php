@@ -1,4 +1,6 @@
 <?php
+use System\engine\Controller;
+
 class ControllerStartupStartup extends Controller {
 	public function index() {
 		// Settings

@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerAccountReward extends Controller {
 	public function index() {
 		if (!$this->customer->isLogged()) {

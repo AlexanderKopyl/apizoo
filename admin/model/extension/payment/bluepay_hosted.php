@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionPaymentBluePayHosted extends Model {
 	public function install() {
 		$this->db->query("

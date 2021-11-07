@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionModulePPBraintreeButton extends Controller {
 	private $gateway = null;
 

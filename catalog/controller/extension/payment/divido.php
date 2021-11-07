@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionPaymentDivido extends Controller {
 	const
 		STATUS_ACCEPTED = 'ACCEPTED',

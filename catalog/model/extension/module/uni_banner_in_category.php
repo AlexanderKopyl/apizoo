@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionModuleUniBannerInCategory extends Model {	
 	public function getBanners($category_id) {
 		$store_id = (int)$this->config->get('config_store_id');

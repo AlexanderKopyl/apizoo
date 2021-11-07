@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionModuleUniNewsCategory extends Controller {
 	public function index($setting) {
 		static $module = 0;

@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerStartupSass extends Controller {
 	public function index() {
 		$files = glob(DIR_APPLICATION . 'view/theme/' . $this->config->get('config_theme') . '/stylesheet/*.scss');

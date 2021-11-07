@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionDevmanextensionsTools extends Model {
 
     public function __construct($registry) {

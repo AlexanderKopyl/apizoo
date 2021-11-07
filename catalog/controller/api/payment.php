@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerApiPayment extends Controller {
 	public function address() {
 		$this->load->language('api/payment');

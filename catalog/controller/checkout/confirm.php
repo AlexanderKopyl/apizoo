@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerCheckoutConfirm extends Controller {
 	public function index() {
 		$redirect = '';

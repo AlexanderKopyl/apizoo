@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionTotalSubTotal extends Controller {
 	private $error = array();
 

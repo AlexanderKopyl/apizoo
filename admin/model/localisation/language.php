@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelLocalisationLanguage extends Model {
 	public function addLanguage($data) {
 		$this->db->query("INSERT INTO " . DB_PREFIX . "language SET name = '" . $this->db->escape($data['name']) . "', code = '" . $this->db->escape($data['code']) . "', locale = '" . $this->db->escape($data['locale']) . "', sort_order = '" . (int)$data['sort_order'] . "', status = '" . (int)$data['status'] . "'");

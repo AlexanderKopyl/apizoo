@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerProductCategory extends Controller {
 	public function index() {
 		$this->load->language('product/category');

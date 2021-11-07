@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelSettingSetting extends Model {
 	public function getSetting($code, $store_id = 0) {
 		$data = array();

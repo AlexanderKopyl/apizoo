@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionModuleUniReviews extends Model
 {
     public function getAllReviews($start = 0, $limit = 12, $page) {

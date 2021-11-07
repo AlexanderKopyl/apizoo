@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerMailTransaction extends Controller {
 	public function index(&$route, &$args, &$output) {
 		$this->load->language('mail/transaction');

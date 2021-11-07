@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerCatalogAttribute extends Controller {
 	private $error = array();
 

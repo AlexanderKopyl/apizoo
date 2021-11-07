@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerCommonFooter extends Controller {
 	public function index() {
 		$this->load->language('common/footer');

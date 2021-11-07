@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerMarketingContact extends Controller {
 	private $error = array();
 

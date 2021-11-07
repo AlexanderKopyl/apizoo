@@ -1,4 +1,7 @@
 <?php
+
+use System\engine\Model;
+
 class ModelExtensionDashboardSale extends Model {
 	public function getTotalSales($data = array()) {
 		$sql = "SELECT SUM(total) AS total FROM `" . DB_PREFIX . "order` WHERE order_status_id > '0'";

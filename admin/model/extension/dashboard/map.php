@@ -1,4 +1,6 @@
 <?php
+use System\engine\Model;
+
 class ModelExtensionDashboardMap extends Model {
 	public function getTotalOrdersByCountry() {
 		$implode = array();

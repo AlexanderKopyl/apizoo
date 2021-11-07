@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionPaymentPerpetualPayments extends Model {
 	public function getMethod($address, $total) {
 		$this->load->language('extension/payment/perpetual_payments');

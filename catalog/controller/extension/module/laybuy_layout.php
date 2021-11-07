@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionModuleLaybuyLayout extends Controller {
 	public function index() {
 		$this->load->model('extension/module/laybuy_layout');

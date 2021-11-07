@@ -1,4 +1,6 @@
 <?php
+use System\engine\Controller;
+
 class ControllerExtensionDashboardSale extends Controller {
 	private $error = array();
 

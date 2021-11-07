@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionModulePPButton extends Controller {
 	public function index() {
 		$this->load->language('extension/module/pp_button');

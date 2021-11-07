@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionModulePPButton extends Controller {
 	public function index() {
 		if ($this->config->get('payment_pp_express_status') == 1) {

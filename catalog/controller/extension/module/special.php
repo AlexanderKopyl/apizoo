@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionModuleSpecial extends Controller {
 	public function index($setting) {
 		$this->load->language('extension/module/special');

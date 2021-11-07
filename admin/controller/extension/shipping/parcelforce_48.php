@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionShippingParcelforce48 extends Controller {
 	private $error = array();
 

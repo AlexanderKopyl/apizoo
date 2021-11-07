@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionModuleSmsAlert extends Controller {
 	public function index($route, $data) {
 		if ($this->config->get('module_sms_alert_status')) {

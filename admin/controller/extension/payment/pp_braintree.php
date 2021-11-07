@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionPaymentPPBraintree extends Controller {
 	private $error = array();
 	private $gateway = null;

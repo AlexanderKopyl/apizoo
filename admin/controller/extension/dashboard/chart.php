@@ -1,4 +1,7 @@
 <?php
+
+use System\engine\Controller;
+
 class ControllerExtensionDashboardChart extends Controller {
 	private $error = array();
 

@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionCaptchaGoogle extends Controller {
     public function index($error = array()) {
         $this->load->language('extension/captcha/google');

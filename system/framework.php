@@ -1,12 +1,26 @@
 <?php
 // Registry
+use System\engine\ServiceFactory;
+use System\engine\Loader;
+use System\engine\Action;
+use System\engine\Event;
+use System\engine\Router;
+use System\engine\Registry;
+
 $registry = new Registry();
 
 // Config
 $config = new Config();
 $config->load('default');
 $config->load($application_config);
+$config->load('ServicesConfig');
 $registry->set('config', $config);
+
+//Service
+$serviceFactory = new ServiceFactory();
+$serviceFactory->setService('printService', $config->get('print_service'));
+
+$registry->set('serviceFactory', $serviceFactory);
 
 // Log
 $log = new Log($config->get('error_filename'));

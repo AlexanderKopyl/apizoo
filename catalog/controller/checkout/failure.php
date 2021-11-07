@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerCheckoutFailure extends Controller {
 	public function index() {
 		$this->load->language('checkout/failure');

@@ -7,6 +7,8 @@
  * @link		https://www.opencart.com
 */
 
+namespace System\engine;
+
 /**
 * Registry class
 */
@@ -28,7 +30,7 @@ final class Registry {
      * 
      *
      * @param	string	$key
-	 * @param	string	$value
+	 * @param	$value
      */	
 	public function set($key, $value) {
 		$this->data[$key] = $value;

@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionPaymentG2APay extends Model {
 
 	public function getMethod($address, $total) {

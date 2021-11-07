@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionPaymentSecureTradingPp extends Model {
 	public function getMethod($address, $total) {
 		$this->load->language('extension/payment/securetrading_pp');

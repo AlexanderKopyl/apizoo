@@ -1,4 +1,7 @@
 <?php
+
+use System\engine\Controller;
+
 class ControllerExtensionDashboardOrder extends Controller {
 	private $error = array();
 

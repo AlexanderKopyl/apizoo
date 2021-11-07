@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionPaymentPayPal extends Model {
 	public function getMethod($address, $total) {
 		$this->load->language('extension/payment/paypal');

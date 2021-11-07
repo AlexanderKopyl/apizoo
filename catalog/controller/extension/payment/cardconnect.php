@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionPaymentCardConnect extends Controller {
 	public function index() {
 		$this->load->language('extension/payment/cardconnect');

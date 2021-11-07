@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelSettingModule extends Model {
 	public function addModule($code, $data) {
 		$this->db->query("INSERT INTO `" . DB_PREFIX . "module` SET `name` = '" . $this->db->escape($data['name']) . "', `code` = '" . $this->db->escape($code) . "', `setting` = '" . $this->db->escape(json_encode($data)) . "'");

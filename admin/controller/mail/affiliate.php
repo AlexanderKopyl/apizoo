@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerMailAffiliate extends Controller {
 	public function approve(&$route, &$args, &$output) {
 		$this->load->model('customer/customer');

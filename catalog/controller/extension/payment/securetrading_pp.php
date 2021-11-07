@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionPaymentSecureTradingPp extends Controller {
 	public function index() {
 		$this->load->model('checkout/order');

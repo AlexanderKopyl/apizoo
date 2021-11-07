@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerSaleOrder extends Controller {
 	private $error = array();
 

@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerDesignTheme extends Controller {
 	public function index() {
 		$this->load->language('design/theme');

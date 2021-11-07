@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionPaymentPPStandard extends Model {
 	public function getMethod($address, $total) {
 		$this->load->language('extension/payment/pp_standard');

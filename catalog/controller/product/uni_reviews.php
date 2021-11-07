@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerProductUniReviews extends Controller {
     public function index() {
 		$uniset = $this->config->get('config_unishop2');

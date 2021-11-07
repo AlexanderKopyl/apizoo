@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionThemeUnishop2 extends Controller {
 	private $error = array();
 

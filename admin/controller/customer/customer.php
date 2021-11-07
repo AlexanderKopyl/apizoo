@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerCustomerCustomer extends Controller {
 	private $error = array();
 

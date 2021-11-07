@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionPaymentAlipay extends Controller {
 	public function index() {
 		$data['button_confirm'] = $this->language->get('button_confirm');

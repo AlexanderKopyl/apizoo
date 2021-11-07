@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerApiReward extends Controller {
 	public function index() {
 		$this->load->language('api/reward');

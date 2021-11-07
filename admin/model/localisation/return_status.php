@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelLocalisationReturnStatus extends Model {
 	public function addReturnStatus($data) {
 		foreach ($data['return_status'] as $language_id => $value) {

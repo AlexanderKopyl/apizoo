@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionPaymentAlipay extends Controller {
 	private $error = array();
 

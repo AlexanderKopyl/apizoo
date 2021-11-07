@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionModuleUniBannerInCategory extends Model {
 
 	public function addBanner($data) {

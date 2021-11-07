@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionPaymentPPStandard extends Controller {
 	public function index() {
 		$this->load->language('extension/payment/pp_standard');

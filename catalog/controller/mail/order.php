@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerMailOrder extends Controller {
 	public function index(&$route, &$args) {
 		if (isset($args[0])) {

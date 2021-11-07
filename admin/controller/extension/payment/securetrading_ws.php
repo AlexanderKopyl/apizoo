@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionPaymentSecureTradingWs extends Controller {
 	private $error = array();
 

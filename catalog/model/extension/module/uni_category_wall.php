@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionModuleUniCategoryWall extends Model {	
 	public function getCategories($categories) {	
 		$store_id = (int)$this->config->get('config_store_id');

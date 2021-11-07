@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionFraudIp extends Controller {
 	private $error = array();
 

@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionModuleUniRelated extends Model {	
 	public function getAutoRelated($data) {
 		

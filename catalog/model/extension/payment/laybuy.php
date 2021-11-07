@@ -1,4 +1,5 @@
 <?php
+use System\engine\Model;
 class ModelExtensionPaymentLaybuy extends Model {
 	public function addTransaction($data = array(), $status) {
 		$this->log('Report: ' . print_r($data, true), '1');

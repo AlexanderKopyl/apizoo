@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionExtensionPromotion extends Controller {
 	public function index() {
 		$curl = curl_init();

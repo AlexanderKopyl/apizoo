@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionPaymentKlarnaAccount extends Controller {
 	public function index() {
 		$this->load->model('checkout/order');

@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionModuleUniLiveSearch extends Controller {
 	public function index() {
 		

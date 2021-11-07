@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerCommonContentTop extends Controller {
 	public function index() {
 		$this->load->model('design/layout');

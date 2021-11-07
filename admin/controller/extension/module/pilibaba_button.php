@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerExtensionModulePilibabaButton extends Controller {
 	public function index() {
 		$this->load->language('extension/module/pilibaba_button');

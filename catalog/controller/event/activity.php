@@ -1,4 +1,5 @@
 <?php
+use System\engine\Controller;
 class ControllerEventActivity extends Controller {
 	// model/account/customer/addCustomer/after
 	public function addCustomer(&$route, &$args, &$output) {
